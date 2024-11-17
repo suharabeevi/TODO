@@ -1,0 +1,39 @@
+
+.project-card {
+    background-color: #1c1c1c; /* Dark background for cards */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(206, 175, 175, 0.5);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: white; /* Default text color */
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Hover effect */
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(76, 175, 80, 0.5); /* Green glow on hover */
+}
+
+/* Title styling */
+.project-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF9800; /* Bright orange for titles */
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+/* Date styling */
+.project-card p {
+    font-size: 14px;
+    color: #d4d4d4; /* Lighter text for secondary information */
+    margin: 0;
+}
+
+/* Title hover effect */
+.project-card:hover h3 {
+    color: #4CAF50; /* Change title color to green on hover */
+}
